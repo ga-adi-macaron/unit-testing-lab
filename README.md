@@ -10,6 +10,8 @@ creator: James Davis (NYC)
 
 ## Introduction
 
+> ***Note:*** _This can be a pair programming activity or done independently._
+
 In a previous lab you created various subclasses of an Animal class.
 Today you are going to start with an Android version of that project (provided as [starter-code](starter-code)) and write unit tests for it.
 
@@ -40,7 +42,7 @@ The [starter code](starter-code) is an Android version of the previous animals l
 
 #### Deliverable
 
-Submit a pull request with app with all passing tests!
+Submit a pull request with app with all passing tests! If you worked with a partner, put both names in the pull request title.
 
 ## Additional Resources
 
