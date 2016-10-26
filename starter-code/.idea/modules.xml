@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lab/starter-code/app/app.iml" filepath="$PROJECT_DIR$/../../../../../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lab/starter-code/app/app.iml" />
+      <module fileurl="file://C:/../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lab/starter-code/app/app.iml" filepath="C:/../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lab/starter-code/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/starter-code.iml" filepath="$PROJECT_DIR$/starter-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lab/starter-code/starter-code.iml" filepath="$PROJECT_DIR$/../../../../../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lab/starter-code/starter-code.iml" />
+      <module fileurl="file://C:/../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lab/starter-code/starter-code.iml" filepath="C:/../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lab/starter-code/starter-code.iml" />
     </modules>
   </component>
 </project>
