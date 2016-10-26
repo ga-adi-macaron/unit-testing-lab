@@ -17,5 +17,11 @@ public class ZooTest {
         int sizeOfZooAfterAdded = Zoo.getInstance().getAnimals().size();
 
         Assert.assertEquals(sizeOfZoo + 1, sizeOfZooAfterAdded);
+
+        sizeOfZoo = Zoo.getInstance().getAnimals().size();
+        Zoo.getInstance().removeAnimal(roger);
+        int sizeOfZooAfterRemoved = Zoo.getInstance().getAnimals().size();
+
+        Assert.assertEquals(sizeOfZoo - 1, sizeOfZooAfterRemoved);
     }
 }
