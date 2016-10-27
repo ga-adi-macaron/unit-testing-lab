@@ -6,7 +6,7 @@ package ly.generalassemb.drewmahrt.oofundamentals;
 public abstract class Mammal extends Animal {
     int mNumLegs;
 
-    public Mammal(int numLegs, int topSpeed, boolean isEndangered, String name){
+    public Mammal(int numLegs, int topSpeed, boolean isEndangered, String name) {
         super(topSpeed, isEndangered, name);
         this.mNumLegs = numLegs;
     }

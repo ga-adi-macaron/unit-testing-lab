@@ -6,7 +6,7 @@ package ly.generalassemb.drewmahrt.oofundamentals;
 public class Lion extends Mammal {
     private boolean mIsAlpha;
 
-    public Lion(boolean isAlpha){
+    public Lion(boolean isAlpha) {
         super(4, 50, false, "Lion");
         mIsAlpha = isAlpha;
     }
@@ -26,6 +26,6 @@ public class Lion extends Mammal {
 
     @Override
     public String toString() {
-        return "Lion" + (mIsAlpha? " (Alpha)" : "");
+        return "Lion" + (mIsAlpha ? " (Alpha)" : "");
     }
 }
