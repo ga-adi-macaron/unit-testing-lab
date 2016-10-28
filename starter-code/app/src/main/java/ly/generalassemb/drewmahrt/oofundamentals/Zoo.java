@@ -1,10 +1,11 @@
 package ly.generalassemb.drewmahrt.oofundamentals;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Zoo {
     //Define the Zoo object
-    private static Zoo zoo;
+    private static Zoo zoo = null;
 
     //Definition of the list to hold the animals
     private static ArrayList<Animal> animals;
@@ -14,8 +15,9 @@ public class Zoo {
     }
 
     public static Zoo getInstance(){
-        if(zoo == null)
+        if(zoo == null) {
             zoo = new Zoo();
+        }
         return zoo;
     }
 
@@ -23,7 +25,7 @@ public class Zoo {
         animals.add(animal);
     }
 
-    public ArrayList<Animal> getAnimals(){
+    public List<Animal> getAnimals(){
         return animals;
     }
 }
