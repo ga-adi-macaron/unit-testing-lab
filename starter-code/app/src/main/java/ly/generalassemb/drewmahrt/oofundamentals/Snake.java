@@ -3,11 +3,11 @@ package ly.generalassemb.drewmahrt.oofundamentals;
 /**
  * Created by drewmahrt on 1/26/16.
  */
-public class Snake extends Reptile{
+public class Snake extends Reptile {
     private boolean mIsPoisonous;
 
-    public Snake(boolean isPoisonous){
-        super(false,5,false,"Snake");
+    public Snake(boolean isPoisonous) {
+        super(false, 5, false, "Snake");
         mIsPoisonous = isPoisonous;
     }
 
@@ -18,6 +18,6 @@ public class Snake extends Reptile{
 
     @Override
     public String toString() {
-        return "Snake" + (mIsPoisonous? " (Poisonous)" : "");
+        return "Snake" + (mIsPoisonous ? " (Poisonous)" : "");
     }
 }
