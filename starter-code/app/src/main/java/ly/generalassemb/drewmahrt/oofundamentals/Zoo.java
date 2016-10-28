@@ -23,6 +23,12 @@ public class Zoo {
         animals.add(animal);
     }
 
+    public void removeAnimal(Animal animal) {
+        if (!(animal.equals(null))) {
+            animals.remove(animal);
+        }
+    }
+
     public ArrayList<Animal> getAnimals(){
         return animals;
     }
